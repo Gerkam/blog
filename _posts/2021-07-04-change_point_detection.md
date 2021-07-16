@@ -6,9 +6,12 @@ https://en.wikipedia.org/wiki/Change_detection
 
 ![]({{ site.baseurl }}/images/posts/change_point_detection/change_point_types.png "change_point_types")
 
+
 2 type of task:
     online and offline prediction
-    
+"""
+Change point detection methods are divided into two main branches: online methods, that aim to detect changes as soon as they occur in a real-time setting, and offline methods that retro- spectively detect changes when all samples are received. The for- mer task is often referred to as event or anomaly detection, while the latter is sometimes called signal segmentation.
+""" - selective review 1 paragraph    
 
 Most Popular Methods:
 
@@ -23,7 +26,15 @@ Most Popular Methods:
 - the segment neighborhood algorithm (Auger and Lawrence 1989; Bai and Perron 1998) 
 - PELT algorithm (Killick, Fearnhead, and Eckley 2012a)
 - Anomaly detection methods
-
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5464762/#:~:text=Change%20point%20detection%20(CPD)%20is,well%20as%20change%20point%20detection.
+- BCPD
+- https://arxiv.org/pdf/1801.00718.pdf
+- https://onlinelibrary.wiley.com/doi/abs/10.1002/bs.3830190605
+- https://arxiv.org/pdf/1801.00718.pdf
+- https://habr.com/ru/company/jugru/blog/527186/
+- https://arxiv.org/pdf/1101.1438.pdf   
+    
+    
 Most Popular libs:
 
 - https://github.com/deepcharles/ruptures
@@ -43,3 +54,6 @@ We now introduce the general likelihood ratio based approach to test this hypoth
 - Multiple
 
 pass
+
+Literature:
+- https://charles.doffy.net/files/sp-review-2020.pdf
